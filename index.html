@@ -1,147 +1,87 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>R&S Desing</title>
+		<title>R&amp;S Desing</title>
 		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	
-	<style>
-		body{
-			background-image:url('imagenes/imagen.jpg');
-			background-repeat: no-repeat;
-		}
-		.style1{
-            width: 230px;
-        }
-		.style2{
-            height: 250px;
-        }
-		.style3
-        {
-            width: 250px;
-        }
-       
-	</style>
-	<script type="text/javascript" src="http://www.hablemosdelmundial.tv/maracanazo/js/jquery-1.8.3.js"></script>
-
-	<script>
-		function inicio(){
-			$('#pagina').css('display','none');
-			document.getElementById("content").innerHTML='<object type="text/html" data="paginas/inicio/indexInicio.html" style="width:950px; height:100%;"></object>';
-		}
-		function informate(){
-			$('#pagina').css('display','none');
-			document.getElementById("content").innerHTML='<object type="text/html" data="paginas/informate/indexInformate.html" style="width:950px; height:100%;"></object>';
-		}
-		function nosotros(){
-			$('#pagina').css('display','none');
-			document.getElementById("content").innerHTML='<object type="text/html" data="paginas/nosotros/indexNosotros.html" style="width:950px; height:100%;"></object>';
-		}
-		function galeria(){
-			$('#pagina').css('display','none');
-			document.getElementById("content").innerHTML='<object type="text/html" data="paginas/galeria/indexGaleria.html" style="width:950px; height:100%; margin-left:25px;"></object>';
-		}
-		function contactenos(){
-			$('#pagina').css('display','none');
-			document.getElementById("content").innerHTML='<object type="text/html" data="paginas/contactenos/indexContactenos.html" style="width:950px; height:100%; margin-left:25px;"></object>';
-		}
-	</script>
 	</head>
 	<body>
-		<table>
-			<tr>
-				<td class="style2">
-					<img src="imagenes/animacionlogo.gif" style= "height: 140px; width: 130px; position: relative; top: 21px; left: 1px;" />
-					<img src="imagenes/banner.png" style="width: 245px; height: 56px; position: relative; top: 60px; left: -65px;" />
-				</td>
-				<td class="style2">
-				</td>
-			</tr>
-			<tr style="float: left; width:280px;">
-				<td class="style1">
-				<img src="imagenes\bannerlateral.png" class="style1" style="position: relative; top: 15px; left: -2px; height: 790px" />
-				<div id="DivBotones" class="center" style="position: relative; top: -755px;">
-					<input type="image" src="imagenes\inicio.png" onclick="return inicio()" name="I1" width="200px" height="50px"><br />
-					<input type="image" src="imagenes\nosotros.png" onclick="return nosotros()" name="I2" width="200px" height="50px"><br />
-					<input type="image" src="imagenes\informate.png" onclick="return informate()" name="I3" width="200px" height="50px"><br />
-					<input type="image" src="imagenes\galeria.png" onclick="return galeria()" name="I4" width="200px" height="50px"><br />
-					<input type="image" src="imagenes\contactenos.png" onclick="return contactenos()" name="image" width="200px" height="50px"><br />
-				</div>
-				</td>
-				<td id="content">
-					
-					<table id="pagina" style="width: 905px;position: relative;top: -105px;left: 35px;">
-					<tr style="float:left; background-color:white; height: 275px;">
-						<td style="width:285px;">
-							<a href="paginas/Informate/IndexInformate.html">Diplomado en animación de personajes </a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/Animaturas.jpg" />
-						</td>
-						
-						<td style="width:120px;">
-							<p style="text-align: justify"> 
-								Animaturas y la UAM azcapotzalco invitan una vez más a su Diplomado en animación de personajes...
-							</p>
-						</td>
-						<td style="width:80px;"></td>
-						<td style="width:285px;">
-							<a href="../../Informate/IndexInformate.html">Adobe Ink & Slide</a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/Adobe.jpg" />
-						</td>
-						<td style="width:120px;">
-							<p>
-								Adobe Ink fue diseñado para trabajar directamente sobre el iPad con una pluma digital de punta sumamente fina...
-							</p>
-						</td>
-					</tr>
-					
-					<tr style="float:left; background-color:white; height: 275px;">
-						<td style="width:285px;">
-							<a href="../../Informate/IndexInformate.html">Diplomado en animación de personajes </a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/campanha.jpg" />
-						</td>
-						
-						<td style="width:120px;">
-							<p style="text-align: justify"> 
-								Animaturas y la UAM azcapotzalco invitan una vez más a su Diplomado en animación de personajes...
-							</p>
-						</td>
-						<td style="width:80px;"></td>
-						<td style="width:285px;">
-							<a href="../../Informate/IndexInformate.html">Adobe Ink & Slide</a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/CinemaWare.jpg" />
-						</td>
-						<td style="width:120px;">
-							<p>
-								Adobe Ink fue diseñado para trabajar directamente sobre el iPad con una pluma digital de punta sumamente fina...
-							</p>
-						</td>
-					</tr>
-					
-					<tr style="float:left; background-color:white; height: 275px;">
-						<td style="width:285px;">
-							<a href="../../Informate/IndexInformate.html">Diplomado en animación de personajes </a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/ENAP.jpg" />
-						</td>
-						
-						<td style="width:120px;">
-							<p style="text-align: justify"> 
-								Animaturas y la UAM azcapotzalco invitan una vez más a su Diplomado en animación de personajes...
-							</p>
-						</td>
-						<td style="width:80px;"></td>
-						<td style="width:285px;">
-							<a href="../../Informate/IndexInformate.html">Adobe Ink & Slide</a><br />
-							<img style="width:250px; height:200px;" src="paginas/inicio/Imagenes/Photoshop.jpg" />
-						</td>
-						<td style="width:120px;">
-							<p>
-								Adobe Ink fue diseñado para trabajar directamente sobre el iPad con una pluma digital de punta sumamente fina...
-							</p>
-						</td>
-					</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
+		<!-- CABECERA -->
+		<header>
+			<img src="imagenes/animacionlogo.gif" class="logo" alt="" />
+			<img src="imagenes/banner.png" class="banner" alt="" />
+		</header>
+		
+		<div class="clear"></div>
+		<!-- MENU -->
+		<nav>
+			<ul>
+				<li><a href="paginas/inicio/indexInicio.html" class="green button">Inicio</a></li>
+				<li><a href="paginas/nosotros/indexNosotros.html" class="blue button">Nosotros</a></li>
+				<li><a href="paginas/informate/indexInformate.html" class="magenta button">Infórmate</a></li>
+				<li><a href= "paginas/galeria/indexGaleria.html" class="orange button">Galería</a></li>
+				<li><a href="paginas/contactenos/indexContactenos.html" class="red button">Contáctenos</a></li>
+			</ul>
+		</nav>
+		
+		<section class="contenido">
+			<ul class="efectos">
+				<li>
+					<img src="paginas/inicio/Imagenes/Animaturas.jpg" class="inicio_img" alt="Imagen uno" />
+					<h2>Diplomado en animación de personajes</h2>
+					<hr />
+					<p>Animaturas y la UAM azcapotzalco invitan una vez más a su Diplomado en animación de personajes...</p>
+					<a class="boton" href="paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+				
+				<li>
+					<img src="paginas/inicio/Imagenes/Adobe.jpg" class="inicio_img" alt="Imagen dos" />
+					<h2>Adobe Ink & Slide</h2>
+					<hr />
+					<p>Adobe Ink fue diseñado para trabajar directamente sobre el iPad con una pluma digital de punta sumamente fina...</p>
+					<a class="boton" href= "paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+				
+				<li>
+					<img src="paginas/inicio/Imagenes/campanha.jpg" class="inicio_img" alt="Imagen tres" />
+					<h2>8 ILUSTRACIONES MUNDIALISTAS POR CRISTIANO SIQUEIRA</h2>
+					<hr />
+					<p>ESPN, una de las cadenas de televisión deportiva más reconocidas a nivel mundial lanzó, con motivo de la copa del mundo Brasil 2014, ...</p>
+					<a class="boton" href="paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+				
+				<li>
+					<img src="paginas/inicio/Imagenes/CinemaWare.jpg" class="inicio_img" alt="Imagen cuatro" />
+					<h2>ACTUALIZAN HERRAMIENTAS PARA LA INTEGRACIÓN DE ÚLTIMAS VERSIONES DE CINEMA 4D Y ADOBE AFTER EFFECTS</h2>
+					<hr />
+					<p>MAXON anunció la actualización de MAXON CINEWARE, dos nuevas tecnologías integradas directamente en Adobe After Effects CC...</p>
+					<a class="boton" href="paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+				
+				<li>
+					<img src="paginas/inicio/Imagenes/ENAP.jpg" class="inicio_img" alt="Imagen cinco" />
+					<h2>SE TRANSFORMA LA ESCUELA NACIONAL DE ARTES PLÁSTICAS (ENAP) EN FACULTAD DE ARTES Y DISEÑO (FAD)</h2>
+					<hr />
+					<p>El Consejo Universitario dio visto bueno a la transformación de la Escuela Nacional de Artes Plásticas (ENAP) en Facultad de Artes y Diseño (FAD)....</p>
+					<a class="boton" href="paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+				
+				<li>
+					<img src="paginas/inicio/Imagenes/Photoshop.jpg" class="inicio_img" alt="Imagen seis" />
+					<h2>ADOBE MUESTRA VERSIÓN OPTIMIZADA DE PHOTOSHOP CC PARA SURFACE PRO 3</h2>
+					<hr />
+					<p>Esta versión, que oficialmente no ha sido anunciada, trabajará sobre el sistema operativo Windows 8.1 en tablets, incluyendo Surface Pro 3 y Wacom Cintiq Companion....</p>
+					<a class="boton" href="paginas/informate/indexInformate.html" title="Haz click aquí para más información">Dar Click</a>
+				</li>
+			</ul>
+		</section>
+		
 	</body>
 </html>
