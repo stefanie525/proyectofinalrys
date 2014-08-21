@@ -27,7 +27,11 @@ header{
 	width: 130px; 
 	position: relative; 
 	top: -10px; 
+<<<<<<< HEAD
 	left: -755px;
+=======
+	left: -760px;
+>>>>>>> origin/master
 }
 /**** MENU ***/
 nav{
