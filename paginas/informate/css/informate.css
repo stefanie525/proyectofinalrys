@@ -35,7 +35,7 @@ nav{
 	width: 20%;
 	background-image: url('../../../imagenes/bannerlateral.png');
 	background-size: cover;
-	height: 80%;
+	height: 100%;
 }
 ul{
 	margin: 0;
@@ -103,30 +103,23 @@ a.button {
 /**** CONTENIDO ****/
 .contenido{
 	float: left;
-	background-color: white;
+	
 	width: 76%;
-	height: 80%;
+	height: 100%;
 	margin: 0 0 0 4%;
-	background: rgb(198,198,198); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(198,198,198,1) 1%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 59%, rgba(211,211,211,1) 99%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(198,198,198,1)), color-stop(37%,rgba(255,255,255,1)), color-stop(37%,rgba(255,255,255,1)), color-stop(59%,rgba(255,255,255,1)), color-stop(99%,rgba(211,211,211,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(198,198,198,1) 1%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 59%,rgba(211,211,211,1) 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(198,198,198,1) 1%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 59%,rgba(211,211,211,1) 99%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(198,198,198,1) 1%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 59%,rgba(211,211,211,1) 99%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(198,198,198,1) 1%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 59%,rgba(211,211,211,1) 99%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
-
-}
+	background: url('../Imagenes/fondocolor.png') no-repeat center center;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+	}
 .txt_informate{
-	width: 90%;
-	margin: 20px auto;
+	width: 95%;
+	margin: 20px 20px 20px 20px;
 	font-size: 15px;
 	font-family: times;
 	
-}
-.fondo_flor{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 250px;
-}
+	}
+.paginas{
+	margin-left:24%;
+	}

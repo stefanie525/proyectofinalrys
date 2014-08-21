@@ -35,7 +35,7 @@ nav{
 	width: 20%;
 	background-image: url('../../../imagenes/bannerlateral.png');
 	background-size: cover;
-	height: 80%;
+	height: 100%;
 }
 ul{
 	margin: 0;
@@ -120,18 +120,19 @@ h2{
 	float: left;
 	background-color: white;
 	width: 76%;
-	height: 80%;
+	height: 100%;
 	margin: 0 0 0 4%;
 	background-image: url('../imagenes/nosotros.png');
 	background-size: cover;
 }
 .subtitulo1{
-	text-align:center;
 	display: inline-block;
 	width: 20%;
 	font-family: Times;
 	font-size:18px; 
-	margin-left: 3%;
+	position: relative;
+	top: 30px;
+	left: 3%;
 }
 .subtitulo2{
 	text-align:center;
