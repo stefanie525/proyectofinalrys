@@ -5,8 +5,10 @@ html{
 }
 body{
 	background-image:url('../imagenes/imagen.jpg');
-	background-repeat: no-repeat;
+	margin-left: auto;
+ 	 margin-right: auto;
 	height: 100%;
+
 }
 .clear{
 	clear: both;
