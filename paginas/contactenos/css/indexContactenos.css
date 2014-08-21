@@ -102,7 +102,7 @@ a.button {
 
 @font-face {
   font-family: letra_crew36;
-  src: url(../CREW36.ttf);
+  src: url('../CREW36.ttf');
 }
 
 .contenido{
@@ -111,7 +111,7 @@ a.button {
 	width: 76%;
 	height: 80%;
 	margin: 0 0 0 4%;
-	background-image: url('../imagenes/fondocolor.jpg');
+	background-image: url('../Imagenes/fondocolor.jpg');
 	background-size: cover;
 }
 .texto {

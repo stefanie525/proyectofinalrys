@@ -103,7 +103,7 @@ a.button {
 /**** CONTENIDO ****/
 @font-face {
   font-family: letra_crew36;
-  src: url(../CREW36.ttf);
+  src: url('../CREW36.ttf');
 }
 
 h1{
@@ -122,7 +122,7 @@ h2{
 	width: 76%;
 	height: 100%;
 	margin: 0 0 0 4%;
-	background-image: url('../imagenes/nosotros.png');
+	background-image: url('../Imagenes/nosotros.png');
 	background-size: cover;
 }
 .subtitulo1{
